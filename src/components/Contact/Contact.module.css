@@ -1,0 +1,29 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.item {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.button {
+  background-color: rgb(228, 227, 227);
+  color: #0e0e0e;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 18px;
+  border: 2px solid rgb(128, 128, 128);
+  height: 36px;
+}

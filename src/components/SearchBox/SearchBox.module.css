@@ -1,0 +1,19 @@
+.searchBox {
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 18px;
+}
+
+.searchField {
+  padding: 8px;
+  padding-left: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  border: 2px solid #0e0e0e;
+}
+
+::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+}
